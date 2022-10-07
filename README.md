@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Rupayan Roy
-- 👀 I’m interested in Technology, Computers, Engineering and Robotics.....
+- 👀 I’m interested in Technology, Computers, Engineering and Robotics
 - 🌱 I’m currently learning GraphQL, SSR, flask
 
 
