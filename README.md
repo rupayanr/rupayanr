@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Rupayan Roy
-- 👀 I’m interested in Technology, Computers Engineering, Software Engineering and Robotics
-- 🌱 I’m currently learning gRPC, Blazor, C# & UI/UX
+- 👀 I’m a software engineer with a penchant for UI/UX
+- 🌱 I’m currently learning gRPC, Systems Architecture and GenAi
 
 
 <!---
