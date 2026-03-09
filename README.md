@@ -2,183 +2,111 @@
 
 # Rupayan Roy
 
-**Software Engineer**
-
-Building scalable distributed systems and full-stack applications
-
-<br>
+**Software Engineer · Bengaluru**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rupayan-roy)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rupayan.roy16@gmail.com)
 
 </div>
 
-<br>
+---
+
+## About
+
+When I was 10, I was building computers from scratch — watching YouTube teardowns, ordering parts, figuring out why things didn't boot. Nobody taught me. I just couldn't stop.
+
+Six years into a career later, not much has changed. I'm still the person who needs to understand how the whole thing works — not just my layer. I've shipped production systems across fintech, semiconductor tooling, and healthcare: real-time voice agents, high-throughput streaming architectures, IDE extensions, and zero-downtime database migrations. Different domains, same instinct — understand the problem fully before touching the keyboard, then care about every part of the solution.
+
+Right now I'm going deep on distributed systems and infrastructure. I want to eventually build something of my own in the cloud-native space — but I'm not in a rush to get the idea wrong. So I'm reading DDIA, logging what's broken in the systems I work in, and paying attention.
+
+Outside of engineering: I climb, do MMA and boxing, read obsessively, travel when I can, and game occasionally. The common thread is I like hard things that take real time to get good at.
 
 ---
 
-<br>
+## What I've Built
 
-## About Me
+### Real-Time AI Voice Agent
 
-Full-stack engineer with 6+ years of experience building distributed systems, microservices architecture, and real-time applications across pharmaceutical, semiconductor, and fintech domains.
+Production voice agent on GPT Realtime API. Migrated from WebSocket to WebRTC, pushing end-to-end latency **under 150ms**. Built PII redaction pipeline using Azure NER for HIPAA compliance.
 
-I specialize in designing scalable backend systems while maintaining a strong focus on **UI/UX** and frontend development. My approach to **problem-solving** combines technical depth with user-centric design thinking.
-
-<br>
-
----
-
-<br>
-
-## Journey
-
-```mermaid
-timeline
-    title Career Timeline
-    2019 : Systems Engineer
-         : Fintech Systems
-    2022 : Developer II
-         : Semiconductor Tools
-    2024 : Senior Product Engineer
-         : Real-time Systems
-         : AI Applications
-    2025 : Distributed Systems Expert
-         : Technical Leadership
-         : System Design
-```
-
-<br>
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
 ---
 
-<br>
+### High-Throughput Streaming Architecture
 
-## Technical Stack
+Rearchitected a streaming microservices system — async ASGI migration, Redis Streams, connection pooling. **TTFB: 30s → 6s (80% reduction). Concurrency: 5x improvement.**
 
-<br>
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 
-### Backend & Architecture
+---
+
+### VS Code Extension — Semiconductor Design Tooling
+
+Custom IDE extension for hardware configuration in Meta Description Language. WebView UI with Python/REST backend. Built for engineers who actually used it daily — not a proof of concept.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=flat-square&logo=blazor&logoColor=white)
+![C#/.NET](https://img.shields.io/badge/.NET%20%7C%20C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+
+---
+
+### Zero-Downtime DB Migration — Fintech
+
+MySQL → AWS RDS for a financial reconciliation system. **Failover cut from 15 minutes to 90 seconds. Zero downtime.** CI/CD migrated from Jenkins to CodePipeline in the same maintenance window.
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS_RDS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+
+---
+
+## How I Work
+
+**Understand before building.** I don't write a line until I can explain what success looks like and why the obvious solution probably won't get there.
+
+**Care about the seams.** Most production failures aren't in the logic — they're in the handoff between layers. I pay attention to the places that are easy to ignore.
+
+**Write things down.** Decisions, tradeoffs, what we tried that didn't work. A system nobody can reason about is a liability.
+
+**Slow down to go fast.** Rushing past a poorly understood problem just moves the cost further downstream. I've learned this the hard way enough times to actually believe it.
+
+---
+
+## Currently
+
+**Reading:**
+- *Designing Data-Intensive Applications* — Kleppmann. Working through replication and consistency models. The gap between what distributed systems promise and what they actually guarantee is larger than most teams realize.
+- *The Hard Thing About Hard Things* — Horowitz. Less about tactics, more about what it actually feels like to build something under pressure.
+- *Clean Code* — Martin. Revisiting it with more production context. Some of it ages better than other parts.
+
+**Thinking about:** Why streaming architectures fail in ways that batch systems don't, and whether the operational complexity is ever really worth it at sub-scale.
+
+---
+
+## Stack
+
+**Backend**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![.NET / C#](https://img.shields.io/badge/.NET%20%7C%20C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
-- Distributed systems and microservices architecture
-- RESTful APIs and real-time streaming (SSE, WebRTC)
-- Event-driven architecture and asynchronous processing
-- OIDC authentication and RBAC implementation
-
-<br>
-
-### Frontend
+**Frontend**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-- Component-driven architecture
-- State management for real-time applications
-- Mobile-responsive design
-- VS Code extension development
-
-<br>
-
-### Infrastructure & Data
+**Infra & Data**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-
-<br>
-
----
-
-<br>
-
-## Featured Projects
-
-<br>
-
-### Real-Time AI Voice Agent
-
-Built a production voice agent using GPT-realtime API with sub-150ms latency. Migrated from WebSocket to WebRTC for performance optimization, implemented Azure NER for PII redaction ensuring HIPAA compliance.
-
-**Stack:** React, TypeScript, WebRTC, GPT-realtime API, Azure NER
-
-<br>
-
-### High-Performance Streaming Architecture
-
-Engineered real-time streaming microservices using Server-Sent Events. Achieved 80% TTFB reduction (30s → 6s) and 5x concurrency scaling through asynchronous ASGI framework migration.
-
-**Stack:** React, FastAPI, PostgreSQL, Redis Streams, Event-Driven Architecture
-
-```
-Performance: 30s → 6s TTFB (80% improvement)
-Concurrency: 5x scaling improvement
-```
-
-<br>
-
-### VS Code Extension for Semiconductor Design
-
-Developed custom IDE extension using WebView APIs for Meta Description Language. Built Python backend with RESTful APIs for automated hardware configuration.
-
-**Stack:** TypeScript, VS Code API, Python, MVVM Architecture
-
-<br>
-
-### Zero-Downtime Database Migration
-
-Led MySQL to AWS RDS migration for fintech reconciliation system. Reduced failover from 15 minutes to 90 seconds, migrated CI/CD from Jenkins to AWS CodePipeline.
-
-**Stack:** MySQL, AWS RDS, AWS CodePipeline
-
-<br>
-
----
-
-<br>
-
-## Engineering Principles
-
-```mermaid
-graph TD
-    A[Problem] --> B[Design]
-    B --> C[Scalability]
-    B --> D[Maintainability]
-    B --> E[User Experience]
-    C --> F[Solution]
-    D --> F
-    E --> F
-```
-
-<br>
-
-**Scalability** - Design systems that grow gracefully
-
-**Maintainability** - Write code that's readable six months later
-
-**User Experience** - Technical excellence meets intuitive design
-
-<br>
-
----
-
-<br>
-
-## Let's Connect
-
-Interested in discussing system design, distributed architectures, or collaborating on projects? Feel free to reach out.
-
-<br>
-
-<div align="center">
-
-*Building systems that scale, code that lasts, experiences that matter*
-
-</div>
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
